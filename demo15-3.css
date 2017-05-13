@@ -1,0 +1,88 @@
+
+.imgtop img{
+	width: 100%;
+}
+
+.container{
+	padding: 0 7%;
+}
+.titletop{
+	font-weight: bold;
+	padding: 1rem 0;
+	font-size: 1.5rem;
+	margin-left: .1rem;
+}
+.titletop span{
+	color: #29b078;
+}
+.row{
+	overflow: hidden;
+}
+/*左边合作企业部分*/
+.left{
+	text-align: center;
+	background: #fff;
+	float: left;
+	width: 26%;
+}
+.company{
+    padding-top: 2rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-bottom: 1px solid #edecec;
+}
+.left1{
+	list-style: none;
+	padding: 0;
+}
+.left1 li{
+	padding: 2rem 0;
+}
+.left1 .tudou{
+	margin-left: -1rem;
+}
+.left1 li a{
+	text-decoration: none;
+    padding: 1.5rem 0 1.5rem 0;
+    color: #29b078;
+
+}
+.left1 li span{
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+    vertical-align: middle;
+	border: 2px solid #f0a650;
+	border-radius: 50%;
+}
+.left1 li a:hover span{
+	background: #f0a650;
+}
+/*右边企业详细信息部分*/
+.right{
+	float: right;
+	width: 70%;
+    margin-bottom: 4rem;
+	text-indent: 2.4rem;
+	line-height: 2rem;
+	color: #b5b5b5;
+    font-size: 1.4rem;
+	box-shadow: 0 0 5px #edecec;
+	background: #fff;
+}
+.alibaba{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 2rem;
+	border-bottom: 1px solid #edecec;
+	box-shadow: 0 0 5px #edecec;
+}
+.alibaba img{
+	width: 50%;
+}
+.detail{
+	margin-top: 2rem;
+	padding: 1rem 2rem;
+	
+}

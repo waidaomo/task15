@@ -1,0 +1,242 @@
+/*共用部分*/
+.clearfix:after{  /*最简方式清除浮动*/
+            content: '';
+            display: block;
+            clear: both;
+}
+main{
+	background: #fafafa;
+}
+/*头部导航部分*/
+header{
+	width: 100%;
+	margin: 0 auto;
+
+}
+.head-contact{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5% 7%;
+	color:#29b078;
+	background: #fafafa;
+	height: 3rem;
+}
+.chat{
+	word-spacing: 1rem;
+	border: none;
+}
+
+.chat-c{
+	display: inline-block;
+}
+
+.nav{
+    overflow: hidden;
+    padding: 0 7%;
+    color: white;
+    background-color: #29b078;
+}
+.nav-nav1{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 8rem;
+}
+.hamburger{
+	/*position: absolute;*/
+	right: 2rem;
+	font-size: 3rem;
+	color: #868686;
+	background: none;
+	border: none;
+	display: none;
+	outline: none;
+}
+.nav-list{
+	padding: 0;
+	font-size: 2rem;
+	list-style: none;
+	margin-right: -1.5rem;
+}
+
+.nav-icon{
+	display: inline-block;
+}
+
+.nav-a{
+	padding: 2.5rem 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 3px solid #fff;
+}
+.nav-a1{
+	color: #fff;
+    text-decoration: none;
+}
+.nav-b{
+	padding: 2.5rem 1.5rem;
+	color: #fff;
+    text-decoration: none;
+}
+.nav-b1{
+	color: #fff;
+    text-decoration: none;
+}
+.nav-b:hover{
+	border-bottom: 3px solid #fff;
+}
+.nav-list1{
+	padding: 0;
+	font-size: 2rem;
+	letter-spacing: .5rem;
+	list-style: none;
+	display: none;
+}
+
+.nav-icon1{
+	text-align: center;
+	border-bottom: 2px solid #fff;
+}
+.nav-icon2{
+    text-align: center;
+    padding: .6rem;
+    border-bottom: 2px solid #29b078;
+}
+.nav-icon2:hover{
+	border-bottom: 2px solid #fff;
+}
+/*媒体查询*/
+@media screen and (max-width: 768px){	
+	.down{
+		text-align: center;
+		margin: auto;
+		width: 30%
+	}
+	.hamburger{
+		display: block;
+	}
+	.hamburger:hover{
+		background: #fff;
+	}
+	.nav-list{
+		display: none;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+    .nav-list1 {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1000px){
+	.company1 {
+	    width: 33%;
+	}
+	.bac{
+	width: 49%;
+    margin-top: 2%;
+	}
+	.content{
+		width: 48%;
+	}
+}
+@media screen and (min-width: 1000px){
+	.bac {
+	    width: 23%;
+	}
+}
+@media screen and (max-width: 840px){
+	.how {
+	    width: 33%;
+	}
+	.advantage{
+		justify-content: space-between;
+	}
+	.vantage{
+		width: 50%;
+	}
+	.content{
+		width: 100%;
+	}
+	.count{
+		width: 49%;
+	}
+}
+@media screen and (max-width: 690px){
+	.how{
+		width: 48%;
+	}
+	.company1 {
+	    width: 100%;
+	}
+	.left,.right{
+		width: 100%;
+	}
+	.right{
+		margin-top: 4rem;
+	}
+}
+@media screen and (max-width: 480px){
+	.nav-logo{
+		width: 16rem;
+	}
+	.head-contact span{
+		display: none;
+	}
+	.how,.vantage,.bac,.contact{
+	    width: 100%;
+	}
+	.how{
+		text-align: center;
+	}
+	.count{
+		margin: auto;
+	}
+	.one span{
+		font-size: 1.4rem;
+	}
+	.two-1,.two-2{
+		padding: 0;
+	}
+	.contact{
+		padding: 0 4rem;
+	}
+}
+
+/*底部格式*/
+.last{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+	/*padding: 2rem;*/
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+	padding: 0 7%;
+}
+footer a{
+	color: #fff;
+	text-decoration: none;
+}
+footer a:hover{
+	border-bottom: 1px solid #fff;
+}
+.contact{
+	text-align: left;
+}
+.contact p{
+	font-size: 1.5rem;
+}
+footer{
+	background: #29b078;
+}
+footer span{
+	display: block;
+	text-align: center;
+    border-top: 1px solid #fff;
+}
